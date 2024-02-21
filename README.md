@@ -11,3 +11,5 @@
 
          - allow for calculation of clour gradient between colours (top green, bottomL blue, bottomR red)
              - use precision for colour acc.
+
+### use separate shader source code in separate files
