@@ -22,3 +22,9 @@
                 pass each color through vertex shader
                 use button to rotate
 us gl.enable(gl.depthTest)
+
+extra
+        using a points
+        create array for color and verticies
+        specify array using the bing first
+                use 2 buffers
