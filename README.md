@@ -13,3 +13,12 @@
              - use precision for colour acc.
 
 ### use separate shader source code in separate files
+
+//2/28/2024
+        create a triangle
+        randomise color of triangle - use button
+
+        create cube different colors - test
+                pass each color through vertex shader
+                use button to rotate
+us gl.enable(gl.depthTest)
