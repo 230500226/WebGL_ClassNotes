@@ -110,3 +110,47 @@ extra
         create array for color and verticies
         specify array using the bing first
                 use 2 buffers
+
+use separate buffer for color and vertex
+and know how to use one buffer for color and vertex
+
+
+to make a circle
+  use the rotate formula provided by whatsapp
+  then use 360/4 to make a square then 360/36 or more for a circle
+  look at day 2
+
+  no longer use multiplication within vertexshader
+  use 4x4 mat4 id matrix - starting point for all objects in the world
+    then multiply that id matrix to the translation matrix
+      the resultant matix will look like the transformation (get values of the 16 points)
+        this is the code that will appear in the function translate
+        wont use 2 dimensional matrix - nothing called 2 dimensional array
+        create a matrix thats 2d look for memory in c and look for depth
+
+        id matrix will be 1 dimensional array aswall as translation matrix
+        use 16 element array - array that starts from r0 to r15
+          asking to conceptualise the values of r0 to r15
+          a{mat) x b{mat}
+            use r[0] to r[15]
+
+          know what a translation matrix is  
+            a matrix that will give desired values as result
+
+            used to add vec4 foreach axis to ratoat
+              withing matrix use multiplication 
+                add all entries of the matrix
+
+            start with resultant matrix then find out he translatino matrix
+            3 matrix for rotation x y z
+            1 matrix for translation
+            all together 4 transformation matrix
+            and a scaling matrix (multiply all values by the scaling factor)
+              start point is a vector result is a vector, use a matrix multiplication to get the result
+
+              if a point x , increase the value of w the x increases 
+              w can be used to describe a direction of a vector
+              not used for this course
+
+            change the colour of points of the triagnle use separate bufferes for color and verticies and change the colors randomly
+        
