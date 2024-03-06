@@ -153,4 +153,8 @@ to make a circle
               not used for this course
 
             change the colour of points of the triagnle use separate bufferes for color and verticies and change the colors randomly
-        
+        06/03
+        instructions
+          make a sphere, pentagon, diamond
+           - out of context use matrix for rot and trans use id matrix
+          make sphere
