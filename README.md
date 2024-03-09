@@ -1,28 +1,5 @@
 # WebGL_ClassNotes
 
-**Why :**
-
-This is a repository of notes and resources for the subject taught by
-the lecturer who prefers to deliver all the content verbally.
-
-Challenges :
-
-* Missing a class or a part of it could result in losing valuable information.
-* Test scope is vague and unpredictable, based on what was mentioned but not done in class.
-* Topics on webgl are not demonstrated or documented clearly, only
-  explained verbally and sometimes referred to google or student examples.
-* The only leniency is that the output on the screen is what matters,
-  regardless of the implementation, unless some specific methods or
-  practices are required (e.g. shader source code in a separate file).
-
----
-
-## This is my solution.
-
-##### A concise and clear documentation of the lectures we had so far.
-
----
-
 My boiler plate code HelloTriangle [https://github.com/230500226/WebGL_HelloTriangle]()
 
 ---
@@ -65,6 +42,7 @@ My boiler plate code HelloTriangle [https://github.com/230500226/WebGL_HelloTria
 * test (live class instructions demo)
   * const canvas can use
     * `document.querySelector`
+
       * searches for the first canvas element in the html
     * ```
       document.getElementById
@@ -95,10 +73,13 @@ My boiler plate code HelloTriangle [https://github.com/230500226/WebGL_HelloTria
   * Make a shape rotate using the formula
 
     1. The new x-coordinate (x') after rotating a point (x, y) by an angle θ counterclockwise is given by:
+
        $$
        x' = r \cos(\phi + \theta) = r \cos\phi \cdot \cos\theta - r \sin\phi \cdot \sin\theta = x \cos\theta - y\sin\theta
        $$
     2. The new y-coordinate (y') after the rotation is given by:
+
+
        $$
        y' = r \sin(\phi + \theta) = r \cos\phi  \cdot  \sin\theta + r \sin\phi \cdot \cos\theta = x \sin\theta + y \cos\theta
        $$
@@ -120,9 +101,25 @@ My boiler plate code HelloTriangle [https://github.com/230500226/WebGL_HelloTria
 
 #### Lecture 5 (28/02/2024)
 
-* Task :
-  * create a cube
-  * rotate the cube
+* Creating a Triangle:
+  * Implement a button to randomize the color of the triangle.
+  * Three of the individual verticies have different random
+    * use varying / in out
+    * allow for calculation of color gradient between colours (top green, bottomL blue, bottomR red)
+      - use precision for colour acc.
+* Creating a Cube:
+  * Create a cube with different colors.
+  * Pass each color through a vertex shader.
+  * Implement a button to rotate the cube.
+  * Enable depth testing with gl.enable(gl.DEPTH_TEST).
+* Buffers and Arrays:
+  * Use points to create an array for color and vertices.
+  * Understand how to use separate buffers for color and vertex data, as well as a single buffer for both.
+
+Task :
+
+* create a cube
+* rotate the cube
 
 ---
 
@@ -131,6 +128,8 @@ My boiler plate code HelloTriangle [https://github.com/230500226/WebGL_HelloTria
 * Task :
   * create a sphere
 
+
+#### Random notes :
 
 ##### [https://github.com/230500226/WebGL_3Shapes/blob/main/3shapes.js]()
 
@@ -149,7 +148,7 @@ My boiler plate code HelloTriangle [https://github.com/230500226/WebGL_HelloTria
 
 ### use separate shader source code in separate files
 
-//2/28/2024
+/2/28/2024
         create a triangle
         randomise color of triangle - use button
 
@@ -167,8 +166,12 @@ extra
 use separate buffer for color and vertex
 and know how to use one buffer for color and vertex
 
+03/06/2024
+
 to make a circle
   use the rotate formula provided by whatsapp
+
+File called feb2.zip
   then use 360/4 to make a square then 360/36 or more for a circle
   look at day 2
 
