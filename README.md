@@ -96,7 +96,7 @@ My boiler plate code HelloTriangle [https://github.com/230500226/WebGL_HelloTria
 * Task :
   * Make an object rotate in the x, y, z axis and use buttons to toggle the rotation
   * [https://github.com/230500226/WebGL_TriangleRotate]()
-
+remember how to multiply matrix with vector
 ---
 
 #### Lecture 5 (28/02/2024)
