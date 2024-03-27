@@ -213,3 +213,31 @@ File called feb2.zip
           make a sphere, pentagon, diamond
            - out of context use matrix for rot and trans use id matrix
           make sphere
+
+
+27/3/2024
+
+Requestion the matrix question but scale and transform instead of rotation.
+ find the vector first then find the matrix, explicitly show the letter varibles
+
+ load script within head instead of body, use defer to load first
+
+ server must first get the image before mapping the image - server needed for the image
+  - choose the part that maps the image should be loaded after the image
+   - use image.onLoad
+   - or refresh multiple times
+   - 
+
+Main task 
+ -create a cube only with a front and back face
+  - map a texture to the front face
+  - use buttons to translate x, y
+  - use buttons to rotate x, y, z
+    - Texture cords are similar to the color cords
+    - use s,t and u,v cords (same thing)
+     - botom left corner is 0,0
+     - top right corner is 1,1
+     -  image x,y mipmaps must be powers of 2
+     -  use a sampler after mipmaps
+     -  Include alpha value along with rbg
+     -  use an image with transparency
