@@ -219,6 +219,8 @@ File called feb2.zip
 
 Requestion the matrix question but scale and transform instead of rotation.
  find the vector first then find the matrix, explicitly show the letter varibles
+ - replace cos(alpha) with x
+ - A(no change) * V(no change) = V' (answer will have "cos's and beta's") (4 values) (x' = x * cos * whatever, y' =, z' = 1, w' = 0)  
 
  load script within head instead of body, use defer to load first
 
