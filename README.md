@@ -256,4 +256,8 @@ Main task
    
      1. create a function that multiplies 2 (4x4) matrices (not as 2d array) use 1d array
      2. rotate matrix using multiplication function or use already multiplied matrix - use next week
-     3.  
+
+     3. for each object represent the object as an IDmatrix initial value (5 items)
+     4.  - then any transformation on that object needs to be multiplied by neccasrry matrix then pass that modified matrix to the vertex shader
+     5. Dont use short version (line strips),
+     6. perspective matrix
