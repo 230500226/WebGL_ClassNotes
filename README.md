@@ -249,7 +249,7 @@ Main task
    
  03/04/2014
  - Main task
-     - use ID matrix to get 3 rotation, translate, scale matrices
+     - upload this use ID matrix to get 3 rotation, translate, scale matrices
      - show working out
      - test question
      - 
