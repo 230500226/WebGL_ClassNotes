@@ -252,13 +252,15 @@ Main task
      - upload this use ID matrix to get 3 rotation, translate, scale matrices
      - show working out
      - test question
-     - 
+ 
    
-     1. create a function that multiplies 2 (4x4) matrices (not as 2d array) use 1d array
-     2. rotate matrix using multiplication function or use already multiplied matrix - use next week
+     1. create a function that multiplies 2 (4x4) matrices (not as 2d array) use 1d array (return array)
+     2. dont write result as a function argument in other words input resultant in the input function as recursive(argument can be input or output), use result = outputmatrix.
+     3. get an object as an IDMatrix * rotationMatrix use obj = Mult(objRes,objIn,Rotation)
+     4. rotate matrix using multiplication function or use already multiplied matrix - use next week
 
-     3. for each object represent the object as an IDmatrix initial value (5 items)
-     4.  - then any transformation on that object needs to be multiplied by neccasrry matrix then pass that modified matrix to the vertex shader
-     5. Dont use short version (line strips),
-     6. perspective matrix
-     7. use 16 minute vid for perspective matrix - deriving a projection matrix by first deriving an orthographic matrix - ask to do this in test
+     5. for each object represent the object as an IDmatrix initial value (5 items)
+     6.  - then any transformation on that object needs to be multiplied by neccasrry matrix then pass that modified matrix to the vertex shader
+     7. Dont use short version (line strips),
+     8. perspective matrix
+     9. use 16 minute vid for perspective matrix - deriving a projection matrix by first deriving an orthographic matrix - ask to do this in test
