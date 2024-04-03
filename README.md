@@ -261,3 +261,4 @@ Main task
      4.  - then any transformation on that object needs to be multiplied by neccasrry matrix then pass that modified matrix to the vertex shader
      5. Dont use short version (line strips),
      6. perspective matrix
+     7. use 16 minute vid for perspective matrix - deriving a projection matrix by first deriving an orthographic matrix - ask to do this in test
