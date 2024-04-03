@@ -127,6 +127,7 @@ Task :
 
 * Task :
   * create a sphere
+  * try making using matrices
 
 
 #### Random notes :
@@ -243,3 +244,11 @@ Main task
      -  use a sampler after mipmaps
      -  Include alpha value along with rbg
      -  use an image with transparency
+     -  Function to check if it is a power of 2
+     -  Remember to comment the thinking of logic
+   
+ 03/04/2014
+ - Main task
+     1. create a function that multiplies 2 (4x4) matrices (not as 2d array) use 1d array
+     2. rotate matrix using multiplication function or use already multiplied matrix - use next week
+     3. 
