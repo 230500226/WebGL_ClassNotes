@@ -249,6 +249,9 @@ Main task
    
  03/04/2014
  - Main task
+     - use ID matrix to get 3 rotation, translate, scale matrices
+     - show working out
+   
      1. create a function that multiplies 2 (4x4) matrices (not as 2d array) use 1d array
      2. rotate matrix using multiplication function or use already multiplied matrix - use next week
-     3. 
+     3.  
