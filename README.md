@@ -283,7 +283,15 @@ Main task
   - true z = Zfar - position of cube * ration of Znear 
   - Moving the camera changes perspective of the scene
 	  - therefore the persective matrix must be inversed to the scene perspective
-TEST Next week
+### TEST Next week
+
+- will include multiple objects
+- each object require different input for a transformation use a keypress or on screen button
+- glmatrix functions will be given
+- May ask own function implementation that rotates in all three - no marks
+- know how to use the scale function that is given
+- how to map a texture - may be given these lines 
+	
 **gl.matrix be used in the next test and fisa**	
 
 View matrix FOV
@@ -291,6 +299,8 @@ Translation matrix is the inverse of the scene perspective
 
 - Manipulate objects depending on the aspect ratio to appear normal
 	
+represent call objects as models
+	each having a matrix, manipulate the matrix before sending the final matrix to the vertex shader
 
 #### 5% project -> project mark is now 20%
 - the game
