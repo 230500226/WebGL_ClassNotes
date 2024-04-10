@@ -280,4 +280,10 @@ Main task
   - The orthographic matrix does take into accoun the aspect ration but not relative x, y values due to z position
   - z value increases as objects go into the canvas
   - z values must be within 0 - 1
-  - 
+  - true z = Zfar - position of cube * ration of Znear 
+  - Moving the camera changes perspective of the scene
+	  - therefore the persective matrix must be inversed to the scene perspective
+
+#### 5% project mark changes
+- handwrite the derivatoin of the matrices and some sections of the perspective matrix
+- including the game
