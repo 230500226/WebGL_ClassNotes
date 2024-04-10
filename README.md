@@ -264,3 +264,20 @@ Main task
      7. Dont use short version (line strips),
      8. perspective matrix
      9. use 16 minute vid for perspective matrix - deriving a projection matrix by first deriving an orthographic matrix - ask to do this in test
+
+10/04/2024
+
+- Speaking about FOV regarding the video sent https://www.youtube.com/watch?v=U0_ONQQ5ZNM&t=253s&pp=ygUYZGVyaXZlIHByb2plY3Rpb24gbWF0cml4
+- alternative video eplaining the projection matrix https://youtu.be/EqNcqBdrNyI?si=CLP3P4-TE_K0LG47
+- - Represent FOV as a single triangle split in two from the center between the eyes. Choose one side of the triangle theta is the angle closest to the eyes, hypothonuos the side away from the eyes.
+  - try scale the object within the FOV, the tan of theta and the amount of scaling x and y is inversly proportinal
+  - As an object goes further away it becomes smaller
+  - 1/tan(theta) this is the inverse proportianl relationship
+  - aspect ration only applied to x (if x and y, then aspect ratio stays the same)
+  - this idea follows the perspective view
+  - - apparently what the video was talking about
+  
+  - The orthographic matrix does take into accoun the aspect ration but not relative x, y values due to z position
+  - z value increases as objects go into the canvas
+  - z values must be within 0 - 1
+  - 
