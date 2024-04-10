@@ -291,6 +291,7 @@ Main task
 - May ask own function implementation that rotates in all three - no marks
 - know how to use the scale function that is given
 - how to map a texture - may be given these lines 
+- use separate folder for each question
 	
 **gl.matrix be used in the next test and fisa**	
 
