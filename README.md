@@ -283,7 +283,19 @@ Main task
   - true z = Zfar - position of cube * ration of Znear 
   - Moving the camera changes perspective of the scene
 	  - therefore the persective matrix must be inversed to the scene perspective
+TEST Next week
+**gl.matrix be used in the next test and fisa**	
 
-#### 5% project mark changes
-- handwrite the derivatoin of the matrices and some sections of the perspective matrix
-- including the game
+View matrix FOV
+Translation matrix is the inverse of the scene perspective
+
+- Manipulate objects depending on the aspect ratio to appear normal
+	
+
+#### 5% project -> project mark is now 20%
+- the game
+- due 15th may
+#### 5% is now the 
+- hand-write the derivation of the matrices and some sections of the perspective matrix - use the youtube videos - no care aobut js implementation
+- instead look at the implementation from the gl.matrix library
+
